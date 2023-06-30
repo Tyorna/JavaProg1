@@ -29,4 +29,9 @@ public class Immagine extends ElementoMultimediale implements Luminosita {
 				System.out.println(title + ": " + "Immagine scura");
 			}
 	}
+
+	@Override
+	public String toString() {
+		return title + " type= " + tipo + ", luminosità=" + luminosita + "]";
+	}
 }
